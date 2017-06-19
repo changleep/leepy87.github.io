@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html"; charset="utf-8">
+	<title>练习CSS基础</title>
+	<style type="text/css">
+		/*1.重置默认属性*/
+		*{margin:0;padding:0;}
+		ul{list-style: none;}
+		a{text-decoration: none;}
+
+
+		/*2.设置body main和items样式*/
+		body{
+			background: #DADADA;
+		}
+		.main{
+			width:960px;
+			height:600px;
+			margin:0 auto;
+			background:#F3F3F3;
+		}
+		.items{
+			width:100%;
+			height:100%;
+			margin:20px;
+		}
+
+
+		/*3.设置item的样式*/
+		.items .item{
+			width:430px;
+			height:240px;
+			float:left;
+			margin-top:27px;
+			margin-right:27px;
+			border:1px sollid #CCC;
+			border-radius:6px;
+			background:url(http://127.0.0.1/test/css/body1-step5-8.jpg) repeat-x;
+			box-shadow:1px 2px 0px rgba(0, 0, 0, 0.3); 
+		}
+
+		.item .itemLeft{
+			width:175px;
+			height:100%;
+			float: left;
+		}
+
+		.itemLeft img{
+			margin-top:63px; 
+			margin-left:10px;
+		}
+		.itemRight h4{
+			font-size: 17.5px;
+			margin-top:33px;
+			margin-bottom: 15px;
+		}
+		.itemRight p{
+			font-size: 14px;
+			margin-top:6px;
+		}
+		 
+		.item .itemRight{
+			width:230px;
+			height:100%;
+			float: left;
+			color:#777;
+			background:url(http://127.0.0.1/test/css/body1-step5-9.png) no-repeat;
+			padding-left:17px;
+			font-family:"微软雅黑";
+			position:relative;
+		}
+
+		.itemRight img{
+			position:absolute;
+			bottom:13px;
+			right:17px; 
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="main">
+			<div class="items">
+				<div class="item item1">
+					<div class="itemLeft">
+						<img src="css/body1-step5-2.png" />
+					</div>
+					<div class="itemRight">
+						<!--第5.3步新增内容-->
+						<h4>提升活跃度</h4>
+						<p>9种社交帐号快速登录</p>
+						<p>实时回复提醒</p>
+						<p>评论流实时显示</p>
+						<p>顶起"评论功能</p>
+						<p>25套表情包</p>
+							
+						<img src="css/body1-more.png" />
+					</div>
+				</div>
+					
+				<div class="item item2">
+					<div class="itemLeft">
+						<img src="css/body1-step5-10.png" />
+					</div>
+					<div class="itemRight">
+						<!--从第5.3步复制进来的内容-->
+						<h4>提升活跃度</h4>
+						<p>9种社交帐号快速登录</p>
+						<p>实时回复提醒</p>
+						<p>评论流实时显示</p>
+						<p>"顶起"评论功能</p>
+						<p>25套表情包</p>
+							
+						<img src="css/body1-more.png" />
+					</div>
+				</div>
+					
+				<div class="item item3">
+					<div class="itemLeft">
+						<img src="css/body1-step5-11.png" />
+					</div>
+					<div class="itemRight">
+						<!--从第5.3步复制进来的内容-->
+						<h4>提升活跃度</h4>
+						<p>9种社交帐号快速登录</p>
+						<p>实时回复提醒</p>
+						<p>评论流实时显示</p>
+						<p>"顶起"评论功能</p>
+						<p>25套表情包</p>
+							
+						<img src="css/body1-more.png" />
+					</div>
+				</div>
+					
+				<div class="item item4">
+					<div class="itemLeft">
+						<img src="css/body1-step5-12.png" />
+					</div>
+					<div class="itemRight">
+						<!--从第5.3步复制进来的内容-->
+						<h4>提升活跃度</h4>
+						<p>9种社交帐号快速登录</p>
+						<p>实时回复提醒</p>
+						<p>评论流实时显示</p>
+						<p>"顶起"评论功能</p>
+						<p>25套表情包</p>
+							
+						<img src="css/body1-more.png" />
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>
